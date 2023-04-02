@@ -19,4 +19,4 @@ No unfixed bugs
 # Deployment
 
  * The site was deployed to Heroku <br/>
- The live link can be found here - 
+ The live link can be found here - https://guessing-game13.herokuapp.com/
