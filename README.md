@@ -20,3 +20,4 @@ No unfixed bugs
 
  * The site was deployed to Heroku <br/>
  The live link can be found here - https://guessing-game13.herokuapp.com/
+ * This projct was deployed using Code Institute's mock terminal for Heroku.
