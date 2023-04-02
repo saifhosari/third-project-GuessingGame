@@ -40,7 +40,7 @@ def guess_the_number():
                 break
 
             if count == max_guesses:
-                print(f"You have reached the maximum number of guesses. The number was {number}.")
+                print(f"You have reached the maximum number of guesses.\nthe number was {number}.")
                 break
 
             hint_choice = input("Would you like a hint? (y/n): ")

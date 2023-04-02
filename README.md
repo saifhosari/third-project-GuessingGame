@@ -1,31 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# GuessingGame
 
-Welcome Saif Hosari,
+GuessingGame is a simple addictive game.
+The rules of this game are simple and strict, you can choose a starting number of the range and an ending number of it and Maximum number of guesses.
+You will start your guesses and then i added some help for you, (the number is too low or too high) and if you would like a hint i got ya,
+I know many players are too proud to get a hint and i respect that but i added a Hint anyways for you each round you get it wrong so do not worry, i got your back if it became risky and close to losing. ;)
+When you win or lose you get the choice to play again (yes/no)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![GuessingGame-mockup](/images/GuessingGame-mockup.png)
 
-## Reminders
+# Testing
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+i have done enough testing that i assure users there will be no errors in the website.
 
-## Creating the Heroku app
+# Unfixed Bugs 
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+No unfixed bugs
 
-1. `heroku/python`
-2. `heroku/nodejs`
+# Deployment
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+ * The site was deployed to Heroku <br/>
+ The live link can be found here - 
