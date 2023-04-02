@@ -8,6 +8,26 @@ When you win or lose you get the choice to play again (yes/no)
 
 ![GuessingGame-mockup](/images/GuessingGame-mockup.png)
 
+# Features
+
+ - Build and customize your game:
+
+   ![build-own-game](/images/build-own-game.png)
+
+ - help while choosing (too low, too high):
+
+   ![help-too-low-high](/images/help-too-low-high.png)
+
+ - Hits when needed:
+
+   ![Hints](/images/Hints.png)
+
+ - option to play again when losing or winning:
+
+   ![play-again](/images/play-again.png)
+
+
+
 # Testing
 
 i have done enough testing that i assure users there will be no errors in the website.
