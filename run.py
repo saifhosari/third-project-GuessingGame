@@ -31,4 +31,9 @@ def guess_the_number():
                     print("New high score!")
                 break
 
+            if count == max_guesses:
+                print(
+                    f"You have reached the maximum number of guesses. The number was {number}.")
+                break
+
 guess_the_number()
