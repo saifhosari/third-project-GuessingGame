@@ -14,5 +14,21 @@ def guess_the_number():
         max_guesses = int(input("Enter the maximum number of guesses: "))
 
         print(f"Guess a number between {range_start} and {range_end}")
+        while guess != number and count < max_guesses:
+            count += 1
+            guess = int(input("Enter your guess: "))
+
+            if guess < number:
+                print("Your guess is too low, try again.")
+            elif guess > number:
+                print("Your guess is too high, try again.")
+            else:
+                print("Congratulations, you guessed the number!")
+                score = max_guesses - count
+                print(f"Your score is {score}/{max_guesses}")
+                if score > high_score:
+                    high_score = score
+                    print("New high score!")
+                break
 
 guess_the_number()
