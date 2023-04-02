@@ -1,6 +1,14 @@
 import random
 
+
 def guess_the_number():
+    """
+    Get starting and ening number.
+    Run a while loop to play again when it is over and start the game anyways,
+    work on Hints and help the player with odd and even numbers
+    to make it easier.
+    work on play again input.
+    """
     high_score = 0
     play_again = "yes"
 
@@ -32,8 +40,7 @@ def guess_the_number():
                 break
 
             if count == max_guesses:
-                print(
-                    f"You have reached the maximum number of guesses. The number was {number}.")
+                print(f"You have reached the maximum number of guesses. The number was {number}.")
                 break
 
             hint_choice = input("Would you like a hint? (y/n): ")
@@ -43,4 +50,10 @@ def guess_the_number():
                 else:
                     print("Hint: The number is odd.")
 
+        play_again = input("Would you like to play again? (yes/no): ")
+        if play_again.lower() == "no":
+            print(f"Thanks for playing! Your high score was {high_score}.")
+
+
 guess_the_number()
+print(("****************************"))
