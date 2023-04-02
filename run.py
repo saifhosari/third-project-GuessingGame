@@ -36,4 +36,11 @@ def guess_the_number():
                     f"You have reached the maximum number of guesses. The number was {number}.")
                 break
 
+            hint_choice = input("Would you like a hint? (y/n): ")
+            if hint_choice.lower() == "y":
+                if number % 2 == 0:
+                    print("Hint: The number is even.")
+                else:
+                    print("Hint: The number is odd.")
+
 guess_the_number()
